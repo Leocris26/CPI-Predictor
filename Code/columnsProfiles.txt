@@ -1,0 +1,6 @@
+profile_id
+country_id
+country_name
+geom_accuracy
+latitude
+longitude

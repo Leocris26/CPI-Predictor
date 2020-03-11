@@ -1,0 +1,6 @@
+profile_id
+profile_layer_id
+layer_name
+clay_value_avg
+sand_value_avg
+silt_value_avg
