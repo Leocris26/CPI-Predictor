@@ -5,9 +5,9 @@ from userDB import UserDB
 
 class DbManager:
     def __init__(self):
-        #self.woSISdf = self.getWoSIS()
-        #self.woSISx = self.definewoSISx(self.woSISdf)
-        #self.woSISy = self.definewoSISy(self.woSISdf)
+        # self.woSISdf = self.getWoSIS()
+        # self.woSISx = self.definewoSISx(self.woSISdf)
+        # self.woSISy = self.definewoSISy(self.woSISdf)
         self.userDB = self.getUserData()
 
     def definewoSISx(self, df):

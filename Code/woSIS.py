@@ -17,21 +17,21 @@ class WoSISdb:
         return df
 
     def getAttributes(self):
-        dfA = pd.read_csv('attributes.csv', sep='	')
+        dfA = pd.read_csv('./DB/attributes.csv', sep='	')
         dfA = dfA[cnf.attributes]
         return dfA
 
     def getProfiles(self):
-        dfP = pd.read_csv('profiles.csv', sep='	')
+        dfP = pd.read_csv('./DB/profiles.csv', sep='	')
         dfP = dfP[cnf.profiles]
         return dfP
 
     def getPhysical(self):
-        dfPh = pd.read_csv('layers_physical.csv', sep='	')
+        dfPh = pd.read_csv('./DB/layers_physical.csv', sep='	')
         dfPh = dfPh[cnf.physichal]
         return dfPh
 
     def getChemical(self):
-        dfC = pd.read_csv('layers_chemical.csv', sep='	')
+        dfC = pd.read_csv('./DB/layers_chemical.csv', sep='	')
         dfC = dfC[cnf.chemical]
         return dfC
